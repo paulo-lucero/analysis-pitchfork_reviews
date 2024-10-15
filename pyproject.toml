@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "retail-transactions-online-sales-dataset"
+version = "0.1.0"
+description = ""
+authors = ["Paulo <paulosincerolucero@gmail.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.12"
+mysql-connector-python = "^9.0.0"
+pandas = "^2.2.2"
+openpyxl = "^3.1.5"
+matplotlib = "^3.9.2"
+seaborn = "^0.13.2"
+sqlalchemy = "^2.0.35"
+mysqlclient = "^2.2.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
